@@ -141,19 +141,15 @@ h2 {
 
 /*Body__Propiedades Destacadas*/
 .contenedorPropDestacadas {
-  margin-top: 8rem;
-  margin-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  /*margin-left: 2rem;
-  margin-right: 2rem;*/
+  margin: 8rem 0 2rem 0;
+  padding: 0 2rem 0 2rem;
   width: 95vw;
-  /*  display: GRID;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 300px;
   grid-gap: 1rem;
   grid-template-areas: "title title title title" "prop prop prop prop";
-  justify-content: center;*/
+  justify-content: center;
 }
 
 .contenedorPropDestacadas__title {
@@ -173,19 +169,19 @@ h2 {
 }
 
 /*.prop1 {
-  grid-area: prop1;
+  grid-area: prop;
 }
 
 .prop2 {
-  grid-area: prop2;
+  grid-area: prop;
 }
 
 .prop3 {
-  grid-area: prop3;
+  grid-area: prop;
 }
 
 .prop4 {
-  grid-area: prop4;
+  grid-area: prop;
 }*/
 
 .propDestacadas__gallery:hover {
