@@ -6,88 +6,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PP Bienes Raices</title>
     <link rel="stylesheet" href="../estilos/styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <header class="header">
-    <a href="../index.html">
-      <img class="header__logo" src="../imagenes/Logo Pia-14.png" alt="PP Bienes Raíces Logo"/>
-    </a>
+  <body>
+    <header>
+      <nav class="header">
+        <picture>
+          <a href="../index.html">
+            <img
+              class="header__logo logo"
+              src="../imagenes/logoppbienesraices.png"
+              alt="Logo de la Inmobiliaria Pía Pasqualini Bienes Raíces"
+            />
+          </a>
+        </picture>
 
-    <nav class="header__menu">
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../secciones/nosotros.html">Nosotros</a></li>
-        <li><a href="../secciones/propiedades.html">PROPIEDADES</a></li>
-        <li><a href="../secciones/contacto.html">Contacto</a></li>
-        <li><a href="../secciones/novedades.html">Novedades</a></li>
-      </ul>
-    </nav>
+        <ul class="header__menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../secciones/nosotros.html">Nosotros</a></li>
+          <li><a href="../secciones/propiedades.html">PROPIEDADES</a></li>
+          <li><a href="../secciones/contacto.html">Contacto</a></li>
+          <li><a href="../secciones/novedades.html">Novedades</a></li>
+        </ul>
+      </nav>
 
-    <body>
+      <nav class="mmenu">
+        <picture>
+          <a href="../index.html">
+            <img
+              class="mmenu__logo logo"
+              src="../imagenes/logoppbienesraices.png"
+              alt="Logo de la Inmobiliaria Pía Pasqualini Bienes Raíces"
+            />
+          </a>
+        </picture>
 
-    <h1>Nosotros</h1>
+        <input id="mmenu__toggle" type="checkbox" />
+        <label class="mmenu__btn" for="mmenu__toggle">
+          <span></span>
+        </label>
 
-    <div class="nosotros">
-    <img class="nosotros__img" src="https://piapasqualini.com/wp-content/uploads/2020/12/NOSOTROS-1024x340.png"
-      alt="El equipo de PP Bienes Raíces"/>
+        <ul class="mmenu__box">
+          <li><a class="mmenu__item" href="../index.html">Home</a></li>
+          <li>
+            <a class="mmenu__item" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li>
+            <a class="mmenu__item" href="./propiedades.html">PROPIEDADES</a>
+          </li>
+          <li>
+            <a class="mmenu__item" href="contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a class="mmenu__item" href="novedades.html">Novedades</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <p class="nosotros__text">
-      Somos un equipo de profesionales, y estamos trabajando para conseguir la
-      mejor solución inmobiliaria a tus proyectos.
-      <br />
-      Nos encanta lo que hacemos y lo hacemos con gran dedicación.
-      <br />
-      <b><a href="../secciones/contacto.html">¡Ponete en contacto con nosotros!</a></b>
-    </p>
-  </div>
+    <main class="nosotros">
+      <h1 class="nosotros__title">Nosotros</h1>
 
-  <footer>
-    <div class="contenedorFooter">
-    <div class="footer__social">
-      <a
-        href="https://www.instagram.com/ppbienesraices/?hl=es-la"
-        target="_blank"
-      >
-        <img
-          src="/imagenes/logotipo-de-instagram.png"
-          alt="Instagram"
-          width="30"
-          height="30"
-        />
-      </a>
+        <div class="nosotros__items">
+          <div class="nosotros__card">
+              <img class="nosotros__img"
+                src="../imagenes/piapasqualini.png"
+                alt="Foto de Pia Pasqualini"
+              />
+            </a>
+          </div>
 
-      <a
-        href="https://ar.linkedin.com/company/pia-pasqualini-bienes-raices"
-        target="_blank"
-      >
-        <img
-          src="/imagenes/logotipo-de-linkedin.png"
-          alt="Linkedin"
-          width="30"
-          height="30"
-        />
-      </a>
+          <div class="nosotros__card">
+            <img class="nosotros__img"
+              src="../imagenes/marcelopasqualini.png"
+              alt="Foto de Marcelo Pasqualini"
+            />
+          </a>
+        </div>
 
-      <a
-        href="https://www.facebook.com/pages/category/Real-Estate/P%C3%ADa-Pasqualini-Bienes-Ra%C3%ADces-111159270399693/"
-        target="_blank"
-      >
-        <img
-          src="/imagenes/facebook (1).png"
-          alt="Facebook"
-          width="30"
-          height="30"
-        />
-      </a>
-    </div>
+        <div class="nosotros__card">
+          <img class="nosotros__img"
+            src="../imagenes/andrescortina.png"
+            alt="Foto de Andrés Cortina"
+          />
+        </a>
+      </div>
 
-    <div class="footer__infoLegal">
-      Pía Pasqualini Bienes Raíces - Mat. C.U.C.I.C.B.A. n° 7574 <br>
-      <em>Gorriti 4027, C.A.B.A, Argentina - Tel. 011 3303 0485</em>
-    </div>
-  </div>
-  </footer>
+        <div class="nosotros__card">
+          <img class="nosotros__img"
+            src="../imagenes/luisanaperezloyo.png"
+            alt="Foto de Luisana Pérez Loyo"
+          />
+        </a>
+      </div>
+        </div>
 
-</body>
+        <p class="nosotros__text">
+          Somos un equipo de profesionales, y estamos trabajando para conseguir
+          la mejor solución inmobiliaria a tus proyectos.
+          <br />
+          Nos encanta lo que hacemos y lo hacemos con gran dedicación.
+          <br />
+          <b
+            ><a href="../secciones/contacto.html"
+              >¡Ponete en contacto con nosotros!</a
+            ></b
+          >
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer__social">
+          <a
+            href="https://www.instagram.com/ppbienesraices/?hl=es-la"
+            target="_blank"
+          >
+            <img
+              src="../imagenes/logotipo-de-instagram.png"
+              alt="Logo de Instagram"
+              width="30"
+              height="30"
+            />
+          </a>
+
+          <a
+            href="https://ar.linkedin.com/company/pia-pasqualini-bienes-raices"
+            target="_blank"
+          >
+            <img
+              src="../imagenes/logotipo-de-linkedin.png"
+              alt="Logo de Linkedin"
+              width="30"
+              height="30"
+            />
+          </a>
+
+          <a
+            href="https://www.facebook.com/pages/category/Real-Estate/P%C3%ADa-Pasqualini-Bienes-Ra%C3%ADces-111159270399693/"
+            target="_blank"
+          >
+            <img
+              src="../imagenes/facebook (1).png"
+              alt=" Logo de Facebook"
+              width="30"
+              height="30"
+            />
+          </a>
+        </div>
+
+        <div class="footer__legal">
+          Pía Pasqualini Bienes Raíces - Mat. C.U.C.I.C.B.A. n° 7574 <br />
+          <em>Gorriti 4027, C.A.B.A, Argentina - Tel. 011 3303 0485</em>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
