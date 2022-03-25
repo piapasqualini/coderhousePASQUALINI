@@ -56,6 +56,11 @@ header {
   width: 10rem;
   height: auto;
   border-radius: 0%;
+  transition: transform 3s ease-out;
+}
+
+.logo:hover {
+  transform: rotate(70deg);
 }
 
 .header__menu {
