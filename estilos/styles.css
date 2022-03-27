@@ -480,10 +480,6 @@ header {
     transition-duration: 0.25s;
   }
 
-  .video {
-    margin-top: -2rem;
-  }
-
   .destacadas__title {
     margin-left: 0rem;
     text-align: center;
@@ -495,16 +491,5 @@ header {
 
   .tablaDatos {
     max-width: 95vw;
-  }
-
-  .form {
-    display: none;
-  }
-
-  .contacto__map {
-    display: block;
-    margin: 1rem auto;
-    width: 90vw;
-    height: 20rem;
   }
 }
