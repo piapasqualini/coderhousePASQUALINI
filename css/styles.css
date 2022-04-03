@@ -40,6 +40,7 @@ p {
 }
 
 /*Header*/
+
 header {
   background-color: rgb(44, 72, 68);
 }
@@ -177,6 +178,7 @@ header {
 }
 
 /*Footer*/
+
 .footer {
   position: fixed;
   left: 0;
@@ -243,6 +245,7 @@ header {
 }
 
 /*Novedades*/
+/*
 .news {
   margin-left: 1rem;
 }
@@ -286,6 +289,7 @@ header {
   border-color: white;
   border-width: 1rem;
 }
+*/
 
 /*Propiedades*/
 .prop__iframe {

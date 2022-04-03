@@ -1,0 +1,43 @@
+.news {
+  margin-left: 1rem;
+
+  .article {
+    background-color: rgba(230, 231, 231, 0.623);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+
+    &__title {
+      color: hsl(164, 7%, 30%);
+      text-align: center;
+      font-size: 2.4rem;
+      font-style: oblique;
+      font-weight: bold;
+      padding-top: 3rem;
+    }
+
+    &__text {
+      color: hsl(0, 0%, 5%);
+      text-align: justify;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: normal;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      margin-right: 4vw;
+      margin-left: 4vw;
+    }
+
+    &__img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: auto;
+      border-style: solid;
+      border-color: white;
+      border-width: 1rem;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100%;
+  position: relative;
+}
+
+/*General*/
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10rem;
+  min-height: 100vh;
+}
+
+h1 {
+  color: hsl(167, 36%, 25%);
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: normal;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: hsl(164, 7%, 30%);
+  text-align: center;
+  font-size: 2.4rem;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.6rem;
+}
