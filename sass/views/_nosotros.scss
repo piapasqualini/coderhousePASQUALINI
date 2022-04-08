@@ -1,0 +1,48 @@
+/*Nosotros*/
+
+.nosotros {
+  margin: 1rem 0 10rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10rem 1fr 12rem;
+  grid-gap: 1rem;
+  grid-template-areas: "nostitle" "nositems" "nostext";
+  justify-content: center;
+
+  &__title {
+    grid-area: nostitle;
+  }
+
+  &__items {
+    grid-area: nositems;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  &__card {
+    margin: 1rem;
+    width: 20rem;
+  }
+
+  &__img {
+    width: 18rem;
+    height: auto;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__text {
+    text-align: center;
+    padding: 0 1rem;
+    grid-area: nostext;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nosotros {
+    margin-top: 10rem;
+  }
+}

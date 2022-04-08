@@ -1,0 +1,94 @@
+/*Contacto*/
+.tablaDatos {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  background-color: rgb(214, 230, 236);
+  width: 40rem;
+  font-size: 1.4rem;
+
+  td {
+    padding: 1rem;
+    text-align: left;
+    width: 20rem;
+  }
+
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+
+  &__input {
+    font-size: 1.4rem;
+    margin: 0.5rem;
+
+    input {
+      width: 67rem;
+      padding: 1.2rem 2rem;
+      margin: 0.8rem 0;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      width: 80rem;
+      height: 15rem;
+      padding: 1.2rem 2rem;
+      margin: 0.8rem 0;
+      box-sizing: border-box;
+    }
+
+    select {
+      width: 65rem;
+      padding: 1.2rem 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__button input[type="submit"] {
+    width: 80rem;
+    background-color: #527766;
+    border: none;
+    color: white;
+    padding: 1.6rem 3.2rem;
+    text-decoration: none;
+    margin: 0.4rem 0.2rem;
+    cursor: pointer;
+  }
+
+  &__button input[type="reset"] {
+    width: 20%;
+    padding: 1rem 2.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.contacto__map {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .tablaDatos {
+    max-width: 95vw;
+  }
+
+  .form {
+    display: none;
+  }
+
+  .contacto__map {
+    display: block;
+    margin: 1rem auto;
+    width: 90vw;
+    height: 20rem;
+  }
+}
