@@ -22,7 +22,6 @@ header {
 }
 
 .header__menu {
-  font-size: 1.5rem;
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
@@ -160,7 +159,6 @@ header {
       padding: 12px 24px;
       color: rgb(18, 32, 34);
       text-align: left;
-      font-size: 2rem;
       text-decoration: none;
       transition-duration: 0.25s;
     }

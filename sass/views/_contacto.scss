@@ -6,7 +6,6 @@
   margin-top: 2rem;
   background-color: rgb(214, 230, 236);
   width: 40rem;
-  font-size: 1.4rem;
 
   td {
     padding: 1rem;
@@ -79,6 +78,7 @@
 @media screen and (max-width: 768px) {
   .tablaDatos {
     max-width: 95vw;
+    font-size: map-get($fontSize, xsmall);
   }
 
   .form {
@@ -90,5 +90,9 @@
     margin: 1rem auto;
     width: 90vw;
     height: 20rem;
+  }
+
+  main {
+    margin-top: 14rem;
   }
 }

@@ -1,6 +1,21 @@
 @charset "UTF-8";
 /*Imports*/
 /*MISELANEOUS*/
+.fs-xlarge {
+  font-size: 3.2rem; }
+
+.fs-large {
+  font-size: 2.4rem; }
+
+.fs-medium {
+  font-size: 2rem; }
+
+.fs-small {
+  font-size: 1.6rem; }
+
+.fs-xsmall {
+  font-size: 1.4rem; }
+
 /*Reset*/
 * {
   margin: 0;
@@ -36,6 +51,7 @@ h2 {
 p {
   font-size: 1.6rem; }
 
+/*Mixins*/
 /*PARTIALS*/
 header {
   background-color: #2c4844; }
@@ -55,7 +71,6 @@ header {
       transform: rotate(70deg); }
 
 .header__menu {
-  font-size: 1.5rem;
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
@@ -159,7 +174,6 @@ header {
       padding: 12px 24px;
       color: #122022;
       text-align: left;
-      font-size: 2rem;
       text-decoration: none;
       transition-duration: 0.25s; } }
 
@@ -194,14 +208,12 @@ header {
     .news .article__title {
       color: #47524f;
       text-align: center;
-      font-size: 2.4rem;
       font-style: oblique;
       font-weight: bold;
       padding-top: 3rem; }
     .news .article__text {
       color: #0d0d0d;
       text-align: justify;
-      font-size: 1.6rem;
       font-style: normal;
       font-weight: normal;
       margin-top: 2rem;
@@ -231,6 +243,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: nowrap;
+  flex-wrap: nowrap;
   background-color: rgba(63, 68, 68, 0.068);
   margin-top: 2rem;
   padding-top: 2rem;
@@ -262,8 +276,10 @@ header {
   .destacadas__grilla {
     grid-area: prop;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; }
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
   .destacadas__gallery {
     margin: 1rem;
     width: 27rem; }
@@ -299,11 +315,14 @@ header {
   .nosotros__card {
     margin: 1rem;
     width: 20rem; }
-  .nosotros__img {
-    width: 18rem;
-    height: auto; }
-    .nosotros__img:hover {
+  .nosotros__img, .nosotros__img--Pia {
+    width: 20rem;
+    height: auto;
+    filter: grayscale(100%); }
+    .nosotros__img:hover, .nosotros__img--Pia:hover {
       transform: scale(1.1); }
+    .nosotros__img--Pia {
+      filter: none; }
   .nosotros__text {
     text-align: center;
     padding: 0 1rem;
@@ -329,8 +348,7 @@ header {
   margin-bottom: 4rem;
   margin-top: 2rem;
   background-color: #d6e6ec;
-  width: 40rem;
-  font-size: 1.4rem; }
+  width: 40rem; }
   .tablaDatos td {
     padding: 1rem;
     text-align: left;
@@ -383,11 +401,14 @@ header {
 
 @media screen and (max-width: 768px) {
   .tablaDatos {
-    max-width: 95vw; }
+    max-width: 95vw;
+    font-size: 1.4rem; }
   .form {
     display: none; }
   .contacto__map {
     display: block;
     margin: 1rem auto;
     width: 90vw;
-    height: 20rem; } }
+    height: 20rem; }
+  main {
+    margin-top: 14rem; } }

@@ -6,9 +6,7 @@
 }
 
 .presentacion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @include flex(flex, column, center, nowrap);
   background-color: rgba(63, 68, 68, 0.068);
   margin-top: 2rem;
   padding-top: 2rem;
@@ -49,9 +47,7 @@
 
   &__grilla {
     grid-area: prop;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    @include flex(flex, row, center, space-evenly, wrap);
   }
 
   &__gallery {
