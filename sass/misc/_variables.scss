@@ -1,3 +1,4 @@
+/*Variables*/
 $fontSize: (
   xlarge: 3.2rem,
   large: 2.4rem,
@@ -10,4 +11,19 @@ $fontSize: (
   .fs-#{$var} {
     font-size: #{$val};
   }
+}
+
+/*Mixins*/
+@mixin flex(
+  $display: flex,
+  $flex-direction: column,
+  $align-items: center,
+  $justify-content: space-evenly,
+  $wrap: nowrap
+) {
+  display: $display;
+  flex-direction: $flex-direction;
+  align-items: $align-items;
+  justify-content: $justify-content;
+  flex-wrap: $wrap;
 }
